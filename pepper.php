@@ -11,13 +11,13 @@
 *	Copyright [Lee Hodson](https://wpservicemasters.com)
 *
 *	Initial Release: Dec. 11, 2017
-* This Release: Dec. 12, 2017
+*	This Release: Dec. 12, 2017
 *
 **/
 
 /**
 *
-* LICENSE
+*	LICENSE
 *
 *	GNU Affero General Public License v3.0
 *
@@ -45,7 +45,7 @@
 *
 **/
 
-# The HTML Page uses https://getbootstrap.com/docs/4.0/getting-started/introduction/
+#	The HTML Page uses https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
 /**
 *	OPTIONS
@@ -55,7 +55,7 @@
 $password = '123';
 $debug = '1'; # 0 for OFF, 1 for ON
 
-# INTERNAL
+#	INTERNAL
 
 $producttitle = 'Pepper';
 $productversion = '1.0.0';
@@ -252,7 +252,7 @@ if ( $confirm == '1' ) {
 	<br>
 	<section class="container">
 		<div id="messageTop" class="alert alert-primary alert-dismissible fade show" role="alert">
-			<div id="message"><?php if ( $debug='1' ) { echo '<h2>Debug Mode</h2><p class="text-muted">Disable debug in script file.</p>'; } else { echo '<h2>Live Mode</h2>'; } ?></div>
+			<div id="message"><?php if ( $debug == '1' ) { echo '<h2>Debug Mode</h2><p class="text-muted">Disable debug in script file.</p>'; } else { echo '<h2>Live Mode</h2>'; } ?></div>
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			</button>
